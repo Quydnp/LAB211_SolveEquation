@@ -114,7 +114,7 @@ public class Validation {
     }
     
     public boolean isOdd(float n) {
-        if (n%2!=0) return true;
+        if (n%2==1) return true;
         return false;
     }
     
@@ -124,7 +124,8 @@ public class Validation {
     }
     
     public boolean isPerfectSquare(float n) {
-        if (Math.sqrt(n)*Math.sqrt(n) == n) return true;
+        int a = (int) Math.sqrt(n);
+        if (a*a == n) return true;
         return false;
     }
 }

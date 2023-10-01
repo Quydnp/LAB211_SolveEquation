@@ -52,18 +52,21 @@ public class SolveEquation implements ISolveEquation {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         System.out.print("Even numbers: ");
         for (Float element : list) {
             if (validation.isEven(element)) {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         System.out.print("Perfect squares: ");
         for (Float element : list) {
             if (validation.isPerfectSquare(element)) {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         return list;
     }
 
@@ -85,24 +88,28 @@ public class SolveEquation implements ISolveEquation {
         }
         list.add(a);
         list.add(b);
+        list.add(c);
         System.out.print("Odd numbers: ");
         for (Float element : list) {
             if (validation.isOdd(element)) {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         System.out.print("Even numbers: ");
         for (Float element : list) {
             if (validation.isEven(element)) {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         System.out.print("Perfect squares: ");
         for (Float element : list) {
             if (validation.isPerfectSquare(element)) {
                 System.out.print(element + "  ");
             }
         }
+        System.out.println("");
         return list;
     }
 
